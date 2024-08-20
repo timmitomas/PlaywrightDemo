@@ -5,4 +5,4 @@ RUN apt-get update && \
     apt-get install -y maven
 
 RUN git clone https://github.com/timmitomas/PlaywrightDemo.git
-WORKDIR demo
+WORKDIR PlaywrightDemo
