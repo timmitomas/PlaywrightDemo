@@ -4,5 +4,5 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y maven
 
-RUN git clone https://github.com/timmitomas/PlaywrightDemo
+RUN git clone https://github.com/timmitomas/PlaywrightDemo.git
 WORKDIR demo
